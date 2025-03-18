@@ -1,4 +1,4 @@
-# Mi Portafolio
+# Inicio
 
 ¡Hola! Soy Jocelyne y soy desarrolladora web. Este es mi portafolio donde mostraré mis proyectos.
 
