@@ -1,0 +1,35 @@
+/* Resetear algunos estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Color de texto claro */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1f1f1f; /* Fondo oscuro para el header */
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+se
