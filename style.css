@@ -32,4 +32,46 @@ section {
     padding: 40px 20px;
 }
 
-se
+section h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul li {
+    font-size: 1.2rem;
+}
+
+ul li a {
+    color: #76c7c0; /* Color suave y sofisticado para los enlaces */
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    border-color: #76c7c0;
+    background-color: #333333; /* Fondo suave al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #b3b3b3;
+    font-size: 1rem;
+}
+
