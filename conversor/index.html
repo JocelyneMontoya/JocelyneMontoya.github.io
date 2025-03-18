@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Lógica de Programación 2</title>
-
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h2>Conversión de Temperatura</h2>
-    <p>
+    <div class="container">
+        <h2>Conversión de Temperatura</h2>
         <label for="inputCelsius">Temperatura en Celsius:</label>
         <input id="inputCelsius" type="number" placeholder="Ingresa los grados Celsius"
         oninput="temperatureConverter(this.value)">
-
-        <p>Grados Fahrenheit: <span id="outputFahrenheit"></span></p>
-    <p>Grados Kelvin: <span id="outputKelvin"></span></p>
-   
-
-    <script src="script.js"></script>
+        <p>Grados Fahrenheit: <span id="outputFahrenheit">-</span></p>
+        <p>Grados Kelvin: <span id="outputKelvin">-</span></p>
+    </div>
+    
+    <script src="script.js"></script> 
 </body>
 </html>
