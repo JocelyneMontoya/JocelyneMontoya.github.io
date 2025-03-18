@@ -1,0 +1,264 @@
+/*Fuentes de Google Fonts: Belanosima Handjet*/
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Handjet:wght@100..900&display=swap');
+
+.Proyecto {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Centrar la sección horizontalmente */
+}
+html {
+  scroll-padding-top: 100px; /* Ajusta el valor según la altura de tu navbar */
+}
+body {
+  background-color: #F2EBF0;
+}
+
+/*Barra de navegación*/
+
+li:hover{
+  color: #AB8FEB;
+  box-shadow:inset 0px 15px 10px rgba(171, 143, 235, 0.8);
+
+}
+
+/*///INICIO///*/
+
+/*Fuente BELANOSISIMA (para la palabra FEMME FORCE)*/
+.belanosima-regular {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#BF6FA3
+}
+
+/*Fuente Handjet para Headers y titulitos llamativos*/
+/* <uniquifier>: Use a unique and descriptive class name*/
+
+.handjet {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  letter-spacing: 1px;
+}
+
+#banner-inicio{
+  background-color: #AB8FEB; /* Color rosa */
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;*//*
+  margin-top: 60px;*/ /* Para que no se solape con la navbar */
+  /*color: white;*/
+  /* height: 100vh;*/
+  /*display: flex;*/
+  /*align-items: center;*/  
+  padding-top:100 px;
+  padding-bottom:100px;
+}
+
+/* Ajustar el margen superior del texto */
+#banner-inicio .col-lg-6:first-child {
+  margin-top: 350px; /* Ajusta según lo necesario */
+}
+/* Imagen pegada a la derecha */
+#banner-inicio .col-lg-6 img {
+  width: 100%; /* Asegura que cubra toda la columna */
+  object-fit: cover; /* Mantiene la proporción */
+  display: block;
+  margin-top:50px;
+}
+
+/*//ABOUT US//*/
+
+  .contenedor-about {
+    display: grid;  /* Usamos grid para tres columnas */
+    grid-template-columns: 1fr 2fr 2fr;  /* Tres columnas: una pequeña, una mediana (para el texto) y una para la imagen */
+    gap: 20px;  /* Espacio entre las columnas */
+    padding-left: 10%; /* Ajusta el margen izquierdo como desees */
+    height: 100vh;  /* Ajusta la altura del contenedor */
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: flex-start; /* Alinea todo al inicio (arriba) */
+    padding-top: 50px;
+}
+  .columna-1{
+    text-align: left; /*alineamos el contenido de la primera columna*/
+  }
+.subtitulo-about {
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    color: #427DEB;
+    font-size: 16px;
+    margin: 0;
+}
+
+.sobre-nosotras {
+    font-family: 'Handjet', sans-serif;
+    font-weight: bold;
+    color: #AA42EB;
+    font-size: 30px;
+    
+    margin-bottom: 20px;  /* Espacio entre el título y el texto */
+}
+
+.columna-2{
+  text-align: left; 
+}
+
+.texto-about {
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    color: #427DEB;
+    font-size: 16px;
+    
+    margin: 0;
+}
+.texto-about.bold {
+  padding-left: 20px;  /* Añadir sangría a la izquierda */
+  padding-right: 20px; /* Añadir sangría a la derecha */
+  font-weight: bold;  /* Poner en negrita */
+}
+
+.btn-ver-mas {
+  display: inline-block;  /* Hace que el enlace se comporte como un bloque en línea */
+  background-color: #8549ca;  /* Color de fondo azul */
+  color: #FFFAF4;  /* Color de la fuente blanca */
+  font-family: 'Syne', sans-serif;  /* Tipografía Syne */
+  font-size: 16px;  /* Tamaño de fuente igual al de "Welcome Breakers" */
+  font-weight: normal;
+  text-decoration: none;  /* Elimina el subrayado */
+  padding: 10px 20px;  /* Espaciado interior para hacerlo más grande */
+  border-radius: 5px;  /* Bordes redondeados */
+  margin-top: 20px;  /* Espacio encima del botón */
+  text-align: center;  /* Centra el texto dentro del botón */
+}
+
+.btn-ver-mas:hover {
+  background-color: #620c70;  /* Cambia el color al pasar el cursor sobre el botón */
+}
+
+.columna-3{
+  display:flex;
+  justify-content: center;
+}
+.imagen-deportes {
+    width: 100%;  /* Asegura que la imagen ocupe todo el espacio disponible */
+    max-width: 400px;
+    height: auto;  /* Mantiene las proporciones de la imagen */
+}
+
+
+
+  h4 {
+    font-family: 'Kurale';
+  }
+  
+  p {
+    font-family: 'Cormorant Infant';
+  }
+  
+  header {
+    font-family: 'Cormorant Infant';
+    background-color: #f3c2cb;
+  }
+  header nav{
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .nav-item a{
+    color: #734854;
+  }
+  
+  
+  .nav-item a:hover{
+    color: #292528;
+  }
+  
+  #app{
+    color:#734854
+  }
+  
+  
+  .caja-about{
+    background-color: #BF6FA3;
+  }
+  
+  
+  .icon-link{
+    color: #402924;
+  }
+  
+  .card{
+    background-color: #D9A7B0;
+  }
+  
+  .contacto-caja{
+    background-color: #e78fd2;
+  }
+  
+  .btn{
+    background-color: #D9A7B0;
+    color: #402924;
+  }
+  footer{ 
+    background-color: #d5ecf5;
+  }
+  
+  footer i:hover{
+    background-color: #378BA4;
+    color: white;
+  }
+  footer {
+    text-align: center; /* Centra el texto */
+    background-color: #ffe4e1; /* Fondo rosa pastel */
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los nombres */
+    justify-content: center; /* Centrar los nombres */
+}
+
+footer ul li {
+    display: inline;
+    color: #d87393; /* Rosa pastel más oscuro para el texto */
+    font-weight: bold;
+}
+
+#contacto {
+  background-image: url('https://us.123rf.com/450wm/milkos/milkos1710/milkos171000950/87490171-ropa-deportiva-femenina-y-vista-superior-del-equipo-conjunto-de-equipo-de-fitness-y-accesorios-para.jpg?ver=6'); /* Cambia 'tu-imagen.jpg' por la ruta de tu imagen */
+  background-size: contain; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center top; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: rgb(0, 0, 0); /* Asegura que el texto sea legible si la imagen es oscura */
+  padding: 80px 0;
+}
+
+/*Contenedor de catalago de productos*/
+.container-fluid-product img {
+  width: 100%;  
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.row {
+  display: flex;
+  align-items: stretch; 
+}

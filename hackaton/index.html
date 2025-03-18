@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootscamp-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>FEMMEFORCE</title>
+</head>
+
+<body>
+    <!--HERO-->
+    <header id="barra" class="d-flex flex-wrap justify-content-center mb-5 border-bottom">
+        <nav>
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <!--Icono-->
+                <img src="asset/mujer.png" class="bi bi-mujer p-3 fs-4"></i>
+                <span class="fs-4">FEMMEFORCE</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item boton-inicio"><a id="boton-inicio" href="#banner-inicio" class="nav-link "
+                        aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Acerca de</a></li>
+                <li class="nav-item"><a href="#productos" class="nav-link">Productos</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <!-- Íconos de usuario y carrito -->
+            <div class="d-flex align-items-center">
+                <!-- Carrito de compras -->
+                <a href="#catalago" class="me-3 text-dark">
+                    <i class="bi bi-cart3 fs-4"></i>
+                </a>
+                
+            </div>
+            <!-- menu de usuario -->
+            <div class="dropdown text-end">
+                <a href="#" class="me-3 d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person fs-4"></i>
+                </a>
+                <ul class="dropdown-menu text-small" >
+                  <li><a class="belanosima-regular dropdown-item" href="#">Configuraciones</a></li>
+                  <li><a class="belanosima-regular dropdown-item" href="#">Mi perfil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="belanosima-regular dropdown-item" href="#">Cerrar sesion</a></li>
+                </ul>
+              </div>
+
+        </nav>
+    </header>
+           
+    <main>
+        <!--Apartado para inicio-->
+        <section class="hero">
+            <div class="container-fluid" id="banner-inicio">
+
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column ps-5 ">
+                        <p id="app" class="handjet fw-bold text-body-emphasis lead">Bienvenida a <span
+                                class="belanosima-regular text-primary">FEMMEFORCE</span></p>
+
+
+                        <h1 class="handjet ">POTENCIA TU PODER. DOMINA TU MUNDO. </h1>
+
+                        <a href="#productos" class="btn btn-ver-mas mt-3">Ver Más</a>
+
+                    </div>
+
+                    <div class="col-lg-6 d-flex justify-content-rigth mb-6">
+                        <img src="asset/banner-girls.png" alt="Imagen deportiva">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Apartado para acerca de-->
+        <div id="about" class="contenedor-about pd-6">
+            <div class="columna-1">
+                <p id="text" class="subtitulo-about">Welcome Girls</p>
+                <h2 class="sobre-nosotras">Sobre Nosotras</h2>
+            </div>
+            <div class="columna-2">
+                <p class="texto-about" style="text-align:justify">Somos una empresa que busca fomentar el deporte
+                    competitivo en mujeres como una
+                    forma de empoderamiento</p>
+                <p class="texto-about bold " style="text-align:justify">En nuestra empresa creemos firmemente en el
+                    poder transformador del deporte,
+                    especialmente en el contexto de las mujeres. Fomentar la participación activa en actividades
+                    deportivas no solo mejora la salud física y mental, sino que también promueve valores esenciales
+                    como la resiliencia, la perseverancia y el trabajo en equipo. Al apoyar el deporte competitivo,
+                    buscamos crear un espacio donde las mujeres puedan superarse a sí mismas, desafiar sus propios
+                    límites y alcanzar nuevas metas. Estamos comprometidos con la creación de un entorno inclusivo y
+                    accesible que permita que cada mujer, independientemente de su experiencia previa, se sienta
+                    empoderada y capaz de liderar en el ámbito deportivo</p>
+                <p class="texto-about" style="text-align:justify">Sabemos que la práctica deportiva puede ser una
+                    herramienta poderosa para la
+                    autoconfianza, el desarrollo personal y la creación de redes de apoyo. A través de nuestro enfoque,
+                    esperamos inspirar a las mujeres a que se conviertan en modelos a seguir dentro de sus comunidades,
+                    fomentando así una cultura de igualdad y respeto en todos los niveles.</p>
+                <a href="#contacto" class="btn-ver-mas">Ver más</a>
+            </div>
+            <div class="columna-3">
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/23/08/woman-1284656_1280.jpg" alt="Deportes"
+                    class="imagen-deportes">
+            </div>
+        </div>
+
+        <!--Apartado para productos-->
+        <div id="productos" class="productos container mt-5 p-4">
+            <h2 class="sobre-nosotras pb-3 pt-4 border-bottom fw-bold" style="text-align:left">Nuestros productos</h2>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner p-3">
+
+                    <!--Card 1-->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 25rem; padding: 30px;">
+                                <!--Imagenes del carrusel-->
+                                <img src="https://acdn-us.mitiendanube.com/stores/898/402/products/circular-tela1-c45091eb44e8c7582e15993189407065-640-0.webp"
+                                    class="card-img-top rounded-circle " alt=""
+                                    style="width:140px; height: 140px; margin: 0 auto;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align:center">Accesorios deportivos</h5>
+
+                                    <p class="card-text" style="text-align:justify">Desde mochilas y botellas hasta
+                                        guantes y muñequeras, tenemos todo lo que necesitas para
+                                        optimizar tu rutina y llevar tu equipo con comodidad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 2-->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 25rem;padding: 30px;">
+                                <img src="asset/Mancuernas.png" class="card-img-top rounded-circle" alt=""
+                                    style="width:140px; height: 140px; margin: 0 auto;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align:center">Equipo de entrenamiento</h5>
+                                    <p class="card-text" style="text-align:justify"> Encuentra desde mancuernas y pesas
+                                        hasta bandas de resistencia y
+                                        tapetes de yoga, ideales para entrenamientos en casa o en el gimnasio.
+                                        ¡Prepárate para alcanzar tus metas!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 3-->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 25rem;padding: 30px;">
+                                <img src="asset/deporte-tenis.png" class="card-img-top rounded-circle" alt=""
+                                    style="width:140px; height: 140px; margin: 0 auto;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align:center">Deportes</h5>
+                                    <p class="card-text" style="text-align:justify">Equípate para tu deporte favorito
+                                        con nuestra selección de artículos especializados.
+                                        Ya sea fútbol, básquetbol, natación, ciclismo o cualquier otra disciplina, aquí
+                                        encontrarás balones, guantes, protecciones y todo lo necesario para mejorar tu
+                                        rendimiento. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 4-->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 25rem;padding: 30px;">
+                                <img src="asset/ropa-deportiva.png" class="card-img-top rounded-circle" alt=""
+                                    style="width:140px; height: 140px; margin: 0 auto;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align:center">Ropa deportiva</h5>
+                                    <p class="card-text" style="text-align:justify">Descubre telas innovadoras que
+                                        absorben la humedad y
+                                        se adaptan a cada movimiento, ofreciéndote total libertad. Desde leggings y tops
+                                        hasta pants y chamarras, aquí encontrarás todo lo que necesitas para entrenar
+                                        con seguridad y confianza.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 5 -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 25rem;padding: 30px;">
+                                <img src="asset/tenis.png" class="card-img-top rounded-circle" alt=""
+                                    style="width:140px; height: 140px; margin: 0 auto;">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align:center">Calzado deportivo</h5>
+                                    <p class="card-text" style="text-align:justify"> Descubre la combinación perfecta
+                                        entre confort y rendimiento con nuestro calzado deportivo.
+                                        Ya sea para correr, entrenar o simplemente caminar, tenemos el par ideal para
+                                        ti. ¡Ponte en movimiento con estilo!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+            <!--Catalogo de productos-->
+            <div id="catalago" class="container-fluid-product text-center my-3 ">
+                <div class="row  ">
+                    <div class="col-md-4 col-6">
+                        <img src="asset/tenis.png" alt="">
+                        <div class="absolute top-2 right-2 text-black text-xs px-2 py-1" style="background-color: #427deb;">NEW!</div>
+                        <h4 class="mt-2 text-lg font-semibold">Tenis confort</h4>
+                        <p class="text-gray-600">$900.00</p>
+
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <img src="asset/balon.jpg" alt="">
+                        <div class="absolute top-2 right-2 text-black text-xs px-2 py-1" style="background-color: #427deb;">NEW!</div>
+                        <h4 class="mt-2 text-lg font-semibold">Balon soccer</h4>
+                        <p class="text-gray-600">$450.00</p>
+
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <img src="asset/Conjunto.jpg" alt="">
+                        <div class="absolute top-2 right-2 bg-black text-white text-xs px-2 py-1">SOLD OUT</div>
+                        <h4 class="mt-2 text-lg font-semibold">Conjunto deportivo</h4>
+                        <p class="text-gray-600">$1500.00</p>
+
+                    </div>
+
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 col-6">
+                        <img src="asset/Mancuernas.png" alt="">
+                        <div class="absolute top-2 right-2 bg-black text-white text-xs px-2 py-1">SOLD OUT</div>
+                        <h4 class="mt-2 text-lg font-semibold">Mancuernas</h4>
+                        <p class="text-gray-600">$150.00</p>
+
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="asset/pesa-rusa.jpg" alt="">
+                        <div class="absolute top-2 right-2  text-white text-xs px-2 py-1" style="background-color: #DF00EB;">SALE!</div>
+                        <h4 class="mt-2 text-lg font-semibold">Pesa Rusa</h4>
+                        <p class="text-gray-600">$250.00</p>
+
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="asset/Raqueta.jpg" alt="">
+                        <div class="absolute top-2 right-2 text-black text-xs px-2 py-1" style="background-color: #427deb;">NEW!</div>
+                        <h4 class="mt-2 text-lg font-semibold">Raqueta de tenis</h4>
+                        <p class="text-gray-600">$450.00</p>
+
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="asset/cuerda.jpg" alt="">
+                        <div class="absolute top-2 right-2 text-white text-xs px-2 py-1" style="background-color: #DF00EB;"">SALE!</div>
+                        <h4 class="mt-2 text-lg font-semibold">Cuerda para saltar</h4>
+                        <p class="text-gray-600">$170.00</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <!--Pie de página-->
+    <footer class="py-3 my-4">
+        <!-- Apartado de Contacto -->
+        <div id="contacto" class="px-4 py-5 my-5 text-center">
+            <i class="bi bi-envelope-check-fill fs-1"></i>
+            <h2 class="display-5 fw-bold text-body-emphasis">¡Contáctanos!</h2>
+            <div class="col-lg-6 mx-auto">
+                <!-- Información del contacto -->
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <form action="tu-script-de-procesamiento.php" method="POST" class="w-50 bg-light p-4 rounded">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Redes sociales-->
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 p-3">
+            <a href="#" class="nav-link px-2 text-body-secondary">
+                <li class="nav-item"><i class="bi bi-github fs-4 p-2"></i></li>
+            </a>
+        </ul>
+        <footer>
+            <p>Autores del sitio web:</p>
+            <ul>
+                <li>Atli Montoya</li>
+                <li>Diana Alvarez</li>
+                <li>Jessica Perez</li>
+                <li>Ana Conejo</li>
+            </ul>
+            <p>
+                Contacto:
+                <a href="mailto:contacto@perseflora.com">contacto@femmeforce.com</a>
+            </p>
+            <p>© 2025 . Todos los derechos reservados.</p>
+        </footer>
+        <p class="text-center text-body-secondary">Creado por Equipo 3 <a href="https://tecnolochicas.mx/">Bootcamp </a>
+        </p>
+        <p class="text-center text-body-secondary">© femmeforce 2025</p>
+    </footer>
+
+    <!-- CDN JS Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--Typewriter js CDN-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!--script.Js-->
+    <script src="script.js"></script>
+</body>
+
+</html>
