@@ -1,14 +1,14 @@
-# Inicio
+# Home
 
-¡Hola! Soy Jocelyne y soy desarrolladora web. Este es mi portafolio donde mostraré mis proyectos.
+Heyo! I'm Jocelyne & I'm a web developer. Here's my portfolio where I'll showcase some of my projects.
 
-## Mis Proyectos
+## Starred Projects:
 
-- Hackaton
-- Blog de e-commerce
+- Hackathon
+- Blog e-commerce
 - Conversor de temperatura
 
-## Sobre mí
+## About me
 
-Soy apasionada por el aprendizaje y actualmente estoy aprendiendo nuevas tecnologías. Mi objetivo es seguir creciendo en este campo de TI ^^ 
+I'm a learning enthuiast, and currently I'm learning new technologies. My goal is to keep going forward in IT ^^  
 
